@@ -1,0 +1,33 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.product-name {
+    margin-top: 24px;
+}
+.product-name img {
+    height: 294px;
+    max-width: 325px;
+    object-fit: cover;
+}
+
+.product-name .button {
+    margin-top: 5px;
+    width: 313px;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+}
+.button {
+    cursor: pointer;
+}

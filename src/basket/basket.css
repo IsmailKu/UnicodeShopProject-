@@ -1,0 +1,7 @@
+.basket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1020px;
+    margin: auto;
+}
